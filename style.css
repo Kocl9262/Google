@@ -1,0 +1,129 @@
+.cointainer{
+height: 100%;
+}
+.glava{
+    position: absolute;
+    right: 0;
+    width: 200px;
+    top: 15px;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+}
+.glava a{
+    text-decoration: none;
+    color: #222;
+    padding-right: 10px;
+}
+.glava a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.sredina{
+    position: relative;
+    width: 660px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    top: 100px;
+}
+#search_box{
+    height: 25px;
+    width: 571px;
+    border-top: 1px solid darkgrey;
+    border-left: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    border-right: 1px solid lightgrey;
+}
+#search_box:focus{
+    border-color: blue;
+}
+#search_box:hover{
+    border: 1px solid grey;
+}
+#search_gumb{
+    position: relative;
+    float: left;
+    margin-left: 200px;
+    height: 30px;
+    color: #444;
+    border-style: solid;
+    border-width: 1px;
+    background-color: whitesmoke;
+    font-family: arial, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+#search_gumb:hover{
+    color: black;
+    border-color: lightgray;
+}
+#search_gumb:focus{
+    border-color: blue;
+}
+#lucky_gumb{
+    position: relative;
+    float: right;
+    margin-right: 200px;
+    height: 30px;
+    color: #444;
+    border-style: solid;
+    border-width: 1px;
+    background-color: whitesmoke;
+    font-family: arial, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+#lucky_gumb:hover{
+    color: black;
+    border-color: lightgray;
+}
+#lucky_gumb:focus{
+    border-color: blue;
+}
+.sredina a{
+    text-decoration: none;
+}
+.sredina a:hover{
+    text-decoration: underline;
+}
+.noga{
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 40px;
+    border-top: 1px solid lightgrey;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.levi_linki{
+    position: absolute;
+    left: 0;
+    width: 300px;
+    margin-top: 10px;
+}
+.levi_linki a{
+    padding-left: 25px;
+    color: #444;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+}
+.desni_linki{
+    position: absolute;
+    right: 0;
+    width: 320px;
+    margin-top: 10px;
+}
+.desni_linki a{
+    padding-right: 20px;
+    color: #444;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+}
+.noga a:hover{
+    color: black;
+    text-decoration: underline;
+}
